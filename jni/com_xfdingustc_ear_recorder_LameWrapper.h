@@ -2,8 +2,8 @@
 #include <jni.h>
 /* Header for class com_xfdingustc_eac_recorder_LameWrapper */
 
-#ifndef _Included_com_xfdingustc_eac_recorder_LameWrapper
-#define _Included_com_xfdingustc_eac_recorder_LameWrapper
+#ifndef _Included_com_xfdingustc_ear_recorder_LameWrapper
+#define _Included_com_xfdingustc_ear_recorder_LameWrapper
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -12,7 +12,7 @@ extern "C" {
  * Method:    init
  * Signature: (IIIII)V
  */
-JNIEXPORT void JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_init
+JNIEXPORT void JNICALL Java_com_xfdingustc_ear_recorder_LameWrapper_init
   (JNIEnv *, jclass, jint, jint, jint, jint, jint);
 
 /*
@@ -20,7 +20,7 @@ JNIEXPORT void JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_init
  * Method:    close
  * Signature: ()V
  */
-JNIEXPORT void JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_close
+JNIEXPORT void JNICALL Java_com_xfdingustc_ear_recorder_LameWrapper_close
   (JNIEnv *, jclass);
 
 /*
@@ -28,7 +28,7 @@ JNIEXPORT void JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_close
  * Method:    encode
  * Signature: ([S[SI[B)I
  */
-JNIEXPORT jint JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_encode
+JNIEXPORT jint JNICALL Java_com_xfdingustc_ear_recorder_LameWrapper_encode
   (JNIEnv *, jclass, jshortArray, jshortArray, jint, jbyteArray);
 
 /*
@@ -36,7 +36,7 @@ JNIEXPORT jint JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_encode
  * Method:    flush
  * Signature: ([B)I
  */
-JNIEXPORT jint JNICALL Java_com_xfdingustc_eac_recorder_LameWrapper_flush
+JNIEXPORT jint JNICALL Java_com_xfdingustc_ear_recorder_LameWrapper_flush
   (JNIEnv *, jclass, jbyteArray);
 
 #ifdef __cplusplus

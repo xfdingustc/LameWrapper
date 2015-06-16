@@ -27,7 +27,7 @@ LOCAL_SRC_FILES := \
 	$(LAME_LIBMP3_DIR)/takehiro.c \
 	$(LAME_LIBMP3_DIR)/vbrquantize.c \
 	$(LAME_LIBMP3_DIR)/version.c \
-	com_xfdingustc_eac_recorder_LameWrapper.c
+	com_xfdingustc_ear_recorder_LameWrapper.c
 
 LOCAL_CFLAGS := -march=armv7-a -mfloat-abi=softfp -mfpu=neon -g -O0
 LOCAL_MODULE := mp3lame
